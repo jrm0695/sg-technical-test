@@ -1,5 +1,9 @@
 # SocGen Bond ETF Project
 
+## Prerequisites
+
+Install Node.js (v18+): [https://nodejs.org](https://nodejs.org)
+
 ## Getting started
 
 ```bash
@@ -26,7 +30,7 @@ The data layer is responsible for retrieving raw data. It contains:
 The domain layer holds pure business logic. It contains:
 
 - **Entities** (`domain/model/`): business classes like `Bond`, `Etf`, `EtfCompareResult`. They carry business rules (e.g. `Etf.price` computes the scalar product, `Etf.compareWith()` produces a comparison). Entities have no dependency on the data layer or the presentation layer.
-- **Use cases** (`domain/bond-use-cases.ts`): orchestrate business operations by calling repository interfaces. In this project the use case is mostly a passthrough because there is no complex business logic that requires coordinating multiple repositories. If there were (e.g. combining data from different modules), the use case would be the place for it.
+- **Use cases** (`domain/bond-use-cases.ts`): orchestrate business operations by calling repository interfaces. In this project the use case is mostly a passthrough because there is no complex business logic that requires coordinating multiple repositories. 
 - **Repository interfaces**: defined in the domain layer so that the domain never depends on data implementations. The data layer provides concrete implementations.
 
 ### Presentation layer (`presentation/`)

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: #f5f6f8;
+    color: #1a1a2e;
+    line-height: 1.5;
+}
+
+.app {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+}
+
+.app h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #1a1a2e;
+    letter-spacing: -0.3px;
+}
+
+.app h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #888;
+    margin-bottom: 0.75rem;
+}
+
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2.5rem;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.summary-table thead th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #666;
+    background: #f0f1f3;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.summary-table tbody td {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.summary-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.summary-row {
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.summary-row:hover {
+    background: #f5f6f8;
+}
+
+.expand-icon {
+    display: inline-block;
+    width: 1.2rem;
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.composition-cell {
+    padding: 0 1rem 1rem 1rem !important;
+    background: #f9fafb;
+}
+
+.composition-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.composition-table thead th {
+    text-align: left;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #999;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.composition-table tbody td {
+    padding: 0.4rem 0.75rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.composition-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.composition-table .bond-id {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    font-size: 1rem;
+    color: #888;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    font-size: 1rem;
+    color: #c62828;
+}

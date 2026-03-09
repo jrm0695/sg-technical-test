@@ -1,0 +1,107 @@
+.comparison-block {
+    background: #fff;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.comparison-title {
+    margin: 0 0 1.25rem 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.6rem;
+}
+
+.comparison-section {
+    margin-bottom: 1.25rem;
+}
+
+.comparison-section:last-child {
+    margin-bottom: 0;
+}
+
+.comparison-section h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #999;
+    font-weight: 600;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.comparison-table th {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #888;
+    background: #f8f8fa;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: 600;
+}
+
+.comparison-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.comparison-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.bond-id {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.positive {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+.negative {
+    color: #c62828;
+    font-weight: 600;
+}
+
+.bond-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    padding: 0.35rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.82rem;
+    font-family: "SF Mono", "Fira Code", monospace;
+}
+
+.tag-added {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
+
+.tag-removed {
+    background: #ffebee;
+    color: #c62828;
+    border: 1px solid #ffcdd2;
+}
+
+.cash-section span {
+    font-size: 1.05rem;
+    font-weight: 600;
+}

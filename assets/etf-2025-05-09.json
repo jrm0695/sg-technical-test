@@ -1,0 +1,13 @@
+{
+  "cash": -0.45,
+  "bonds": [
+    { "bondId": "FR0014007ND6", "weight": 0.17 },
+    { "bondId": "DE0001102580", "weight": 0.10 },
+    { "bondId": "IT0005560948", "weight": 0.15 },
+    { "bondId": "ES0000012L29", "weight": 0.13 },
+    { "bondId": "BE0000353624", "weight": 0.11 },
+    { "bondId": "NL0015001HZ2", "weight": 0.16 },
+    { "bondId": "IE00BFZPF439", "weight": 0.09 },
+    { "bondId": "FI0001006066", "weight": 0.09 }
+  ]
+}
